@@ -1,0 +1,16 @@
+{
+    "compilerOptions":{
+        "target":"ES5",
+        "types":["node","jest"],
+        "allowJs":true,
+        "outDir":"./build",
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "jsx":"react-jsx",
+    },
+    "compileOnSave": true,
+    "include": [
+        "src/**/*",
+    ],
+    "exclude": []
+}
